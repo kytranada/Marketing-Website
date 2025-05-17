@@ -7,11 +7,11 @@ const Accordian = ({ question, answer }) => {
     <>
       <div
         onClick={() => setShow(!show)}
-        className="bg-[#ffffff] cursor-pointer rounded hover:text-orange-600"
+        className="bg-[#ffffff] cursor-pointer rounded hover:text-pastel-blue"
       >
         <button
           className={`flex justify-between items-center w-full p-4 ${
-            show ? "text-orange-600" : ""
+            show ? "text-pastel-blue" : ""
           }`}
         >
           <span>{question}</span>

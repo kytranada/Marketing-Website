@@ -12,11 +12,11 @@ const NavBar = () => {
   };
 
   return (
-    <div className="w-full xl:h-24 lg:h-20 h-16 flex flex-row items-center justify-between lg:px-32 sm:px-20 px-10 shadow-lg relative secondary-font">
+    <div className="w-full xl:h-24 lg:h-20 h-16 flex flex-row items-center justify-between lg:px-32 sm:px-20 px-10 shadow-lg relative secondary-font bg-pastel-white">
       {/* logo */}
       <a
         href="/Marketing-Website/"
-        className="lg:text-3xl text-2xl tracking-wide font-light text-[#7A6960]"
+        className="lg:text-3xl text-2xl tracking-wide font-light text-pastel-blue-dark"
       >
         BrandName
       </a>
@@ -24,32 +24,32 @@ const NavBar = () => {
       <div className="lg:flex items-center justify-between lg:gap-14 hidden">
         <a
           href="/Marketing-Website/"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
         >
           Home
         </a>
         <a
           href="/Marketing-Website/#about"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
         >
           About
         </a>
         <a
           href="/Marketing-Website/#services"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
         >
           Services
         </a>
         <a
           href="/Marketing-Website/#portfolio"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
         >
           Portfolio
         </a>
 
         <a
           href="/Marketing-Website/#contact"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
         >
           Contact
         </a>
@@ -64,33 +64,33 @@ const NavBar = () => {
       </div>
 
       {/* mobile menu */}
-      <div className="lg:hidden ">
-        <RxHamburgerMenu size={"28px"} onClick={clickHandler} />
+      <div className="lg:hidden">
+        <RxHamburgerMenu size={"28px"} onClick={clickHandler} className="text-pastel-blue-dark" />
       </div>
 
       {show && (
-        <div className="absolute z-20 top-[70px] flex flex-col gap-4 text-center w-full left-0 p-5 lg:hidden shadow-xl bg-white transition-all duration-300">
+        <div className="absolute z-20 top-[70px] flex flex-col gap-4 text-center w-full left-0 p-5 lg:hidden shadow-xl bg-pastel-white transition-all duration-300">
           <a
             href="/Marketing-Website/"
-            className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+            className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
           >
             Home
           </a>
           <a
             href="/Marketing-Website/#about"
-            className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+            className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
           >
             About
           </a>
           <a
             href="/Marketing-Website/#services"
-            className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+            className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
           >
             Services
           </a>
           <a
             href="/Marketing-Website/#contact"
-            className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+            className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
           >
             Contact
           </a>

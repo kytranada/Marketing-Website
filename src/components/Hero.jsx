@@ -44,16 +44,16 @@ const Hero = () => {
   // };
 
   return (
-    <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-10 secondary-font relative">
+    <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-10 secondary-font relative bg-pastel-white">
       <div
         data-aos="fade-right"
         data-aos-duration="1200"
         className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0"
       >
-        <h1 className="text-[#7A6960] md:text-5xl text-3xl font-semibold">
+        <h1 className="text-pastel-blue-dark md:text-5xl text-3xl font-semibold">
           Fueling Skills, Igniting Careers
         </h1>
-        <p className="text-xl mt-5 text-gray-600 primary-font">
+        <p className="text-xl mt-5 text-pastel-blue primary-font">
           Master industry-relevant skills with our vernacular online courses.
           Choose your program, get certified, & open doors to lucrative career
           opportunities.

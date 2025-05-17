@@ -15,34 +15,34 @@ const Home = () => {
   return (
     <div className="container min-w-full min-h-lvh secondary-font">
       <NavBar />
-      <section className="w-full max-h-fit pt-16 lg:px-32 overflow-hidden bg-[#FEFAF8] border-b border-orange-100">
+      <section className="w-full max-h-fit pt-16 lg:px-32 overflow-hidden bg-pastel-white border-b border-pastel-blue-light">
         <Hero />
       </section>
-      <section id="about" className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-orange-100">
+      <section id="about" className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-pastel-blue-light">
         <About />
       </section>
-      <section id="services" className="w-full max-h-fit py-16 lg:px-32 overflow-hidden bg-[#FEFAF8] border-b border-orange-100">
+      <section id="services" className="w-full max-h-fit py-16 lg:px-32 overflow-hidden bg-pastel-white border-b border-pastel-blue-light">
         <Services />
       </section>
-      <section id="portfolio" className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-orange-100">
+      <section id="portfolio" className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-pastel-blue-light">
         <Portfolio />
       </section>
-      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden bg-[#FEFAF8] border-b border-orange-100">
+      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden bg-pastel-white border-b border-pastel-blue-light">
         <FreqAskedQues />
       </section>
-      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-orange-100">
+      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-pastel-blue-light">
         <Team />
       </section>
-      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden bg-[#FEFAF8] border-b border-orange-100">
+      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden bg-pastel-white border-b border-pastel-blue-light">
         <Clients />
       </section>
-      <section id="contact" className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-orange-100">
+      <section id="contact" className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-pastel-blue-light">
         <Contact />
       </section>
-      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden bg-[#FEFAF8] border-b border-orange-100">
+      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden bg-pastel-white border-b border-pastel-blue-light">
         <Newsletter />
       </section>
-      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-orange-100">
+      <section className="w-full max-h-fit py-16 lg:px-32 overflow-hidden border-b border-pastel-blue-light">
         <Footer />
       </section>
     </div>

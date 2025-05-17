@@ -32,7 +32,7 @@ const Contact = () => {
         Contact
       </h1>
       <div className="flex justify-center items-center mt-2">
-        <div className="bg-orange-600 h-1 w-16 rounded"></div>
+        <div className="bg-pastel-blue h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
         Reach out for a new project or just say hello
@@ -42,11 +42,11 @@ const Contact = () => {
         {/* map */}
         <div
           data-aos="fade-up"
-          className="lg:w-[40%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-orange-600 mb-7 lg:mb-0"
+          className="lg:w-[40%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-pastel-blue mb-7 lg:mb-0"
         >
           <div className="flex gap-3 mt-3 mb-12">
             <div
-              className="rounded-full h-fit bg-orange-100 p-2"
+              className="rounded-full h-fit bg-pastel-blue-light p-2"
               style={{ color: "#EA580C", fontSize: "28px" }}
             >
               <IoLocationOutline />
@@ -63,7 +63,7 @@ const Contact = () => {
 
           <div className="flex gap-3 mb-12">
             <div
-              className="rounded-full h-fit bg-orange-100 p-2"
+              className="rounded-full h-fit bg-pastel-blue-light p-2"
               style={{ color: "#EA580C", fontSize: "28px" }}
             >
               <IoCallOutline />
@@ -78,7 +78,7 @@ const Contact = () => {
 
           <div className="flex gap-5 mb-12">
             <div
-              className="rounded-full h-fit bg-orange-100 p-2"
+              className="rounded-full h-fit bg-pastel-blue-light p-2"
               style={{ color: "#EA580C", fontSize: "28px" }}
             >
               <TfiEmail />
@@ -106,7 +106,7 @@ const Contact = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1600"
-          className="lg:w-[60%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-orange-600"
+          className="lg:w-[60%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-pastel-blue"
         >
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="md:flex gap-6">
@@ -118,7 +118,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     placeholder="John Doe"
-                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-orange-600 outline-none"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
                   />
                 </div>
               </div>
@@ -131,7 +131,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     placeholder="johndoe@gmail.com"
-                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-orange-600 outline-none"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
                   />
                 </div>
               </div>
@@ -144,7 +144,7 @@ const Contact = () => {
                 type="text"
                 id="subject"
                 placeholder="Your subject"
-                className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-orange-600 outline-none"
+                className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
               />
             </div>
 
@@ -154,7 +154,7 @@ const Contact = () => {
                 {...register("message", { required: true })}
                 id="message"
                 placeholder="Enter your message"
-                className="w-full h-60 p-3 my-3 rounded border border-zinc-300 focus:border focus:border-orange-600 outline-none resize-none"
+                className="w-full h-60 p-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none resize-none"
               ></textarea>
             </div>
 

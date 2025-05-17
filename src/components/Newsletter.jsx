@@ -29,7 +29,7 @@ const Newsletter = () => {
         Join Our Newsletter
       </h1>
       <div className="flex justify-center items-center mt-2">
-        <div className="bg-orange-600 h-1 w-16 rounded"></div>
+        <div className="bg-pastel-blue h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 p-3 md:p-0">
         Subscribe to our newsletter and receive the latest news about our
@@ -45,9 +45,9 @@ const Newsletter = () => {
           {...register("email", { required: true })}
           type="email"
           placeholder="email@gmail.com"
-          className="md:w-1/2 w-11/12 px-6 py-3 rounded-3xl outline-none border border-zinc-300 focus:border-orange-600"
+          className="md:w-1/2 w-11/12 px-6 py-3 rounded-3xl outline-none border border-zinc-300 focus:border-pastel-blue"
         />
-        <button className="px-4 py-[10px] bg-orange-600 hover:bg-orange-500 rounded-3xl text-slate-50 text-lg hover:shadow hover:shadow-orange-500 transition-all duration-300">
+        <button className="px-4 py-[10px] bg-pastel-blue hover:bg-pastel-blue-dark rounded-3xl text-pastel-white text-lg hover:shadow hover:shadow-pastel-blue transition-all duration-300">
           Subscribe
         </button>
       </form>
