@@ -30,13 +30,13 @@ const Hireus = () => {
   return (
     <div className="">
       <NavBar />
-        <h1 className="text-center text-[#7A6960] md:text-5xl text-3xl font-semibold my-10 p-5 md:p-0">Share your idea & we will <br /> turn it into reality!</h1>
+        <h1 className="text-center text-[#7FB3D5] md:text-5xl text-3xl font-semibold my-10 p-5 md:p-0">Share your idea & we will <br /> turn it into reality!</h1>
       <div className="w-full min-h-screen flex justify-center">
         {/* form */}
         <div
           data-aos="fade-up"
           data-aos-duration="1600"
-          className="lg:w-[60%] h-fit px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-orange-600 bg-white"
+          className="lg:w-[60%] h-fit px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-blue-200 bg-white"
         >
           
           <form onSubmit={handleSubmit(onSubmit)}>

@@ -29,7 +29,7 @@ const Services = () => {
         className="flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-10"
         data-aos="fade-up"
       >
-        <div>
+        <div onClick={() => navigate("/PaidSocialAdvertising")} className="cursor-pointer">
           <Card
             img={<HiOutlineChartPie />} // Consider changing icon if appropriate
             title={"Paid Social Advertising"}
@@ -39,7 +39,7 @@ const Services = () => {
           />
         </div>
 
-        <div>
+        <div onClick={() => navigate("/SocialMediaManagement")} className="cursor-pointer">
           <Card
             img={<HiOutlineChartPie />} // Consider changing icon if appropriate
             title={"Social Media Management"}
