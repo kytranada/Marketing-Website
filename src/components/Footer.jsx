@@ -19,12 +19,9 @@ const Footer = () => {
       <div data-aos="fade-right">
         <h1 className="text-2xl font-semibold mb-3">Joy Marketing</h1> {/* Changed back to original company name */}
         <div>
-          <p className="font-medium text-lg mb-2">
-            Contact Us
-          </p>
-          <p className="mb-2">123 Marketing Street</p>
-          <p className="mb-2">New York City, NY 10001</p>
-          <a href="mailto:Contact@joymarketingmedia.com" className="text-base hover:text-pastel-blue">
+          <p className="mb-2 text-gray-600">123 Marketing Street</p>
+          <p className="mb-2 text-gray-600">New York City, NY 10001</p>
+          <a href="mailto:Contact@joymarketingmedia.com" className="text-base text-gray-600 hover:text-pastel-blue">
             Contact@joymarketingmedia.com
           </a>
         </div>
@@ -34,10 +31,9 @@ const Footer = () => {
       <div data-aos="fade-up" data-aos-delay="200">
         <h1 className="text-xl font-semibold mb-3">Our Services</h1>
         <ul className="space-y-2">
-          <li><Link to="/campaign" className="hover:text-pastel-blue">Paid Social Advertising</Link></li>
-          <li><Link to="/hireus" className="hover:text-pastel-blue">Social Media Management</Link></li>
-          <li><Link to="./src/services/WebDevelopment.jsx" className="hover:text-pastel-blue">Web Development</Link></li>
-          <li><Link to="/seo" className="hover:text-pastel-blue">SEO Optimization</Link></li>
+          <li><Link to="/campaign-creation" className="text-gray-600 hover:text-pastel-blue">Paid Social Advertising</Link></li>
+          <li><Link to="/web-development" className="text-gray-600 hover:text-pastel-blue">Web Development</Link></li>
+          <li><Link to="/seo-optimization" className="text-gray-600 hover:text-pastel-blue">SEO Optimization</Link></li>
         </ul>
       </div>
 

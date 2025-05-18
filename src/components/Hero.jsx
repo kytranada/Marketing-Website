@@ -53,10 +53,10 @@ const Hero = () => {
         <h1 className="text-pastel-blue-dark md:text-5xl text-3xl font-semibold">
           Joy Marketing
         </h1>
-        <p className="text-xl mt-5 text-pastel-blue primary-font">
+        <p className="text-xl mt-5 text-gray-600 primary-font">
           Bringing the joy to marketing for small businesses. Engage with your audience, build your brand, and increase revenue!
         </p>
-        <p className="text-lg mt-3 text-pastel-blue primary-font">
+        <p className="text-lg mt-3 text-gray-600 primary-font">
           Marketing used to be about getting your product in front of people with problems. Today, it's more than that! It's not just about your product, but the brand behind it. It's about being bold and authentic. We specialize in creating marketing campaigns that showcase your unique qualities, set you apart, and create deep connections.
         </p>
         <div className="flex flex-col sm:flex-row items-center mb-12 lg:mb-0 lg:flex-row gap-10 mt-10">
