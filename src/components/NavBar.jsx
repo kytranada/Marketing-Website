@@ -48,7 +48,18 @@ const NavBar = () => {
         >
           Services
         </a>
-        {/* Portfolio link removed */}
+        <a
+          href="/#portfolio"
+          className="text-pastel-blue hover:text-pastel-coral text-lg tracking-wide font-light"
+          onClick={(e) => {
+            if (window.location.pathname === '/') {
+              e.preventDefault();
+              document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
+        >
+          Portfolio
+        </a>
         <a
           href="/#contact"
           className="text-pastel-blue hover:text-pastel-mint text-lg tracking-wide font-light"
@@ -108,6 +119,18 @@ const NavBar = () => {
             }}
           >
             Services
+          </a>
+          <a
+            href="/#portfolio"
+            className="text-pastel-blue hover:text-pastel-coral text-lg tracking-wide font-light"
+            onClick={(e) => {
+              if (window.location.pathname === '/') {
+                e.preventDefault();
+                document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
+            Portfolio
           </a>
           <a
             href="/#contact"
