@@ -31,7 +31,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #EA580C;
+  background-image: linear-gradient(to bottom, #FF9E80, #D1C4E9);
   border-radius: 10px;
 }
 

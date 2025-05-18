@@ -27,7 +27,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="text-[#7A6960]">
+    <div className="text-[#7FB3D5]">
       <h1 data-aos="fade-right" className="text-3xl font-semibold text-center">
         Contact
       </h1>
@@ -35,89 +35,27 @@ const Contact = () => {
         <div className="bg-pastel-blue h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Reach out for a new project or just say hello
+        We are eager and ready to help you increase your visibility and start meaningful conversations with your clients and customers. We aim for authentic human connections so that we can both grow, together.
       </p>
 
-      <div className="lg:flex gap-6">
-        {/* map */}
-        <div
-          data-aos="fade-up"
-          className="lg:w-[40%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-pastel-blue mb-7 lg:mb-0"
-        >
-          <div className="flex gap-3 mt-3 mb-12">
-            <div
-              className="rounded-full h-fit bg-pastel-blue-light p-2"
-              style={{ color: "#EA580C", fontSize: "28px" }}
-            >
-              <IoLocationOutline />
-            </div>
-            <div>
-              <h2 className="lg:text-xl text-[#7A6960] font-semibold">
-                Address
-              </h2>
-              <p className="text-sm text-slate-800">
-                A108 Adam Street, New York, NY 535022
-              </p>
-            </div>
-          </div>
-
-          <div className="flex gap-3 mb-12">
-            <div
-              className="rounded-full h-fit bg-pastel-blue-light p-2"
-              style={{ color: "#EA580C", fontSize: "28px" }}
-            >
-              <IoCallOutline />
-            </div>
-            <div>
-              <h2 className="lg:text-xl text-[#7A6960] font-semibold">
-                Call Us
-              </h2>
-              <p className="text-sm text-slate-800">+1 5589 55488 55</p>
-            </div>
-          </div>
-
-          <div className="flex gap-5 mb-12">
-            <div
-              className="rounded-full h-fit bg-pastel-blue-light p-2"
-              style={{ color: "#EA580C", fontSize: "28px" }}
-            >
-              <TfiEmail />
-            </div>
-            <div>
-              <h2 className="lg:text-xl text-[#7A6960] font-semibold">
-                Email Us
-              </h2>
-              <p className="text-sm text-slate-800">info@example.com</p>
-            </div>
-          </div>
-
-          <div className="lg:w-full lg:h-72">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14010.76256980872!2d77.22260515427726!3d28.60905606083753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1717776828829!5m2!1sen!2sin"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
-
+      <div className="lg:flex justify-center">
         {/* form */}
         <div
           data-aos="fade-up"
           data-aos-duration="1600"
-          className="lg:w-[60%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-pastel-blue"
+          className="lg:w-[80%] w-full px-6 py-5 shadow-xl border-t-[3px] border-b-[3px] border-pastel-blue" // Adjusted width
         >
+          <h2 className="text-2xl font-semibold text-center mb-6">Schedule a discovery call</h2>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="md:flex gap-6">
               <div className="md:w-[50%]">
                 <div>
-                  <label htmlFor="name">Name</label>
+                  <label htmlFor="name">Please enter your name</label>
                   <input
                     {...register("name", { required: true })}
                     type="text"
                     id="name"
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                     className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
                   />
                 </div>
@@ -125,40 +63,57 @@ const Contact = () => {
 
               <div className="md:w-[50%]">
                 <div>
-                  <label htmlFor="email">Your Email</label>
+                  <label htmlFor="email">Please enter your email</label>
                   <input
                     {...register("email", { required: true })}
                     type="email"
                     id="email"
-                    placeholder="johndoe@gmail.com"
+                    placeholder="Your Email"
                     className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
                   />
                 </div>
               </div>
             </div>
 
-            <div>
-              <label htmlFor="subject">Subject</label>
-              <input
-                {...register("subject", { required: true })}
-                type="text"
-                id="subject"
-                placeholder="Your subject"
-                className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
-              />
+            <div className="md:flex gap-6 mt-4">
+              <div className="md:w-[50%]">
+                <div>
+                  <label htmlFor="businessName">Business Name</label>
+                  <input
+                    {...register("businessName")} // Not strictly required on Joy's form visually, but good to have
+                    type="text"
+                    id="businessName"
+                    placeholder="Your Company LLC"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
+                  />
+                </div>
+              </div>
+
+              <div className="md:w-[50%]">
+                <div>
+                  <label htmlFor="websiteUrl">Website URL (if applicable)</label>
+                  <input
+                    {...register("websiteUrl")}
+                    type="url"
+                    id="websiteUrl"
+                    placeholder="https://example.com"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
+                  />
+                </div>
+              </div>
             </div>
 
-            <div>
-              <label htmlFor="message">Message</label>
+            <div className="mt-4">
+              <label htmlFor="howCanWeHelp">How can we help?</label>
               <textarea
-                {...register("message", { required: true })}
-                id="message"
-                placeholder="Enter your message"
-                className="w-full h-60 p-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none resize-none"
+                {...register("howCanWeHelp", { required: true })}
+                id="howCanWeHelp"
+                placeholder="Tell us about your marketing needs..."
+                className="w-full h-40 p-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none resize-none"
               ></textarea>
             </div>
 
-            <div className="flex justify-center m-3">
+            <div className="flex justify-center m-3 mt-6">
               <CtaButton name={"Send Message"} />
             </div>
           </form>
