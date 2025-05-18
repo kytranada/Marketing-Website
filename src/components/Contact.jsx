@@ -35,7 +35,8 @@ const Contact = () => {
         <div className="bg-pastel-blue h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-600 text-center mt-7 mb-10 text-lg">
-        We are eager and ready to help you increase your visibility and start meaningful conversations with your clients and customers. We aim for authentic human connections so that we can both grow, together.
+      Spark real, human conversations with your clients, the kind that doesn't feel like talking to a robot. <br></br> 
+      Let’s grow together, laugh a little, and make your brand unforgettable
       </p>
 
       <div className="lg:flex justify-center">
