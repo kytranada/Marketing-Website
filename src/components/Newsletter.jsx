@@ -31,7 +31,7 @@ const Newsletter = () => {
       <div className="flex justify-center items-center mt-2">
         <div className="bg-pastel-blue h-1 w-16 rounded"></div>
       </div>
-      <p className="text-gray-700 text-center mt-7 mb-10 p-3 md:p-0">
+      <p className="text-gray-600 text-center mt-7 mb-10 p-3 md:p-0">
         Subscribe to our newsletter and receive the latest news about our
         products and services!
       </p>

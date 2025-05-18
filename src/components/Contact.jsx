@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="flex justify-center items-center mt-2">
         <div className="bg-pastel-blue h-1 w-16 rounded"></div>
       </div>
-      <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
+      <p className="text-gray-600 text-center mt-7 mb-10 text-lg">
         We are eager and ready to help you increase your visibility and start meaningful conversations with your clients and customers. We aim for authentic human connections so that we can both grow, together.
       </p>
 

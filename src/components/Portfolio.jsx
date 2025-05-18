@@ -30,7 +30,7 @@ const Portfolio = () => {
       <div className="flex justify-center items-center mt-2">
         <div className="bg-[#7FB3D5] h-1 w-16 rounded"></div>
       </div>
-      <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
+      <p className="text-gray-600 text-center mt-7 mb-10 text-lg">
         Explore our successful marketing campaigns and client success stories
       </p>
 

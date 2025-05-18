@@ -22,7 +22,7 @@ const Services = () => {
       <div className="flex justify-center items-center mt-2">
         <div className="bg-[#7FB3D5] h-1 w-16 rounded"></div>
       </div>
-      <p className="text-gray-700 text-center mt-7 mb-10 text-lg px-4 md:px-16">
+      <p className="text-gray-600 text-center mt-7 mb-10 text-lg px-4 md:px-16">
         We are committed to elevating your brand's presence in the digital world. We want to make it easier for you to get in front of your audience. From building up your social media page to running paid campaigns for a new product launch, we are there to build your brand's presence by building a relationship with your audience. Our team combines creativity with authenticity and data-driven insights to deliver impactful results, fostering growth and enhancing your brand's connection with its audience.
       </p>
       <div
