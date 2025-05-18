@@ -21,10 +21,10 @@ const Clients = () => {
   }, []);
 
   return (
-    <div data-aos="fade-down" className="text-[#7A6960]">
+    <div data-aos="fade-down" className="text-[#7FB3D5]">
       <h1 className="text-3xl font-semibold text-center">Clients</h1>
       <div className="flex justify-center items-center mt-2">
-        <div className="bg-orange-600 h-1 w-16 rounded"></div>
+        <div className="bg-pastel-blue h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
         Our Learners Work at Global Companies & Startups
