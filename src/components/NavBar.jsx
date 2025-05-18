@@ -31,14 +31,14 @@ const NavBar = () => {
       <div className="lg:flex items-center justify-between lg:gap-10 hidden"> {/* Adjusted gap */}
         <a
           href="/"
-          className="text-pastel-blue hover:text-pastel-coral text-lg tracking-wide font-light"
+          className="hover:text-pastel-coral text-lg tracking-wide font-light"
         >
           Home
         </a>
         {/* About link removed */}
         <a
           href="/#services"
-          className="text-pastel-blue hover:text-pastel-yellow text-lg tracking-wide font-light"
+          className="hover:text-pastel-mint text-lg tracking-wide font-light"
           onClick={(e) => {
             if (window.location.pathname === '/') {
               e.preventDefault();
@@ -50,7 +50,7 @@ const NavBar = () => {
         </a>
         <a
           href="/#portfolio"
-          className="text-pastel-blue hover:text-pastel-coral text-lg tracking-wide font-light"
+          className="hover:text-pastel-mint text-lg tracking-wide font-light"
           onClick={(e) => {
             if (window.location.pathname === '/') {
               e.preventDefault();
@@ -62,7 +62,7 @@ const NavBar = () => {
         </a>
         <a
           href="/#contact"
-          className="text-pastel-blue hover:text-pastel-mint text-lg tracking-wide font-light"
+          className="hover:text-pastel-mint text-lg tracking-wide font-light"
           onClick={(e) => {
             if (window.location.pathname === '/') {
               e.preventDefault();
@@ -91,7 +91,7 @@ const NavBar = () => {
         <div className="absolute z-20 top-[70px] flex flex-col gap-4 text-center w-full left-0 p-5 lg:hidden shadow-xl bg-pastel-white border border-pastel-lavender/20 transition-all duration-300">
           <a
             href="/"
-            className="text-pastel-blue hover:text-pastel-coral text-lg tracking-wide font-light"
+            className="hover:text-pastel-coral text-lg tracking-wide font-light"
             onClick={(e) => {
               if (window.location.pathname === '/') {
                 e.preventDefault();

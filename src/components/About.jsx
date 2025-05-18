@@ -54,7 +54,7 @@ const About = () => {
         </div>
         <div className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0">
           <div data-aos="fade-left">
-            <h2 className="text-[#7FB3D5] md:text-3xl font-semibold">
+            <h2 className="text-gray-500 md:text-3xl font-semibold">
             Where Strategy Meets Results
             </h2>
             <p className="text-lg mt-5 text-gray-600 primary-font">
