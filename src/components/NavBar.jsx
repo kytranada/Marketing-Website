@@ -75,16 +75,10 @@ const NavBar = () => {
 
         {/* CTA */}
         <a 
-          href="/#contact" 
+          href="/hireus" 
           className=""
-          onClick={(e) => {
-            if (window.location.pathname === '/') {
-              e.preventDefault();
-              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-            }
-          }}
         >
-          <CtaButton name={"Book a Call"} /> {/* Updated CTA text */}
+          <CtaButton name={"Hire Us"} /> {/* Updated CTA text */}
         </a>
       </div>
 
@@ -147,16 +141,10 @@ const NavBar = () => {
 
           {/* CTA */}
           <a
-            href="/#contact"
+            href="/hireus"
             className="mt-2 ml-2 flex justify-center items-center"
-            onClick={(e) => {
-              if (window.location.pathname === '/') {
-                e.preventDefault();
-                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-              }
-            }}
           >
-            <CtaButton name={"Book a Call"} /> {/* Updated CTA text */}
+            <CtaButton name={"Hire Us"} /> {/* Updated CTA text */}
           </a>
         </div>
       )}
