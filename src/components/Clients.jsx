@@ -27,7 +27,7 @@ const Clients = () => {
         <div className="bg-pastel-blue h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Our Learners Work at Global Companies & Startups
+        Trusted by Companies Across Industries
       </p>
 
       {/* Logo slider */}

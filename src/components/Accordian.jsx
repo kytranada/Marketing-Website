@@ -7,11 +7,13 @@ const Accordian = ({ question, answer }) => {
     <>
       <div
         onClick={() => setShow(!show)}
-        className="bg-[#ffffff] cursor-pointer rounded hover:text-pastel-blue border-l-2 border-pastel-lavender/30"
+        className={`bg-[#ffffff] cursor-pointer rounded hover:text-pastel-blue border-l-2 ${
+          show ? "border-pastel-coral shadow-sm" : "border-pastel-lavender/30"
+        } transition-all duration-300`}
       >
         <button
           className={`flex justify-between items-center w-full p-4 ${
-            show ? "text-pastel-coral" : ""
+            show ? "text-pastel-coral font-medium" : ""
           }`}
         >
           <span>{question}</span>
@@ -56,8 +58,12 @@ const Accordian = ({ question, answer }) => {
           </span>
         </button>
         {/* answer */}
-        <div className="text-gray-700">
-          {show ? <p className="pb-2 -mt-1 px-5">{answer}</p> : null}
+        <div className="text-gray-700 overflow-hidden transition-all duration-300">
+          {show ? (
+            <p className="pb-4 px-5 bg-pastel-white/50 border-t border-pastel-lavender/10">
+              {answer}
+            </p>
+          ) : null}
         </div>
       </div>
     </>

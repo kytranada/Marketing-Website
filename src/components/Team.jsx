@@ -27,12 +27,11 @@ const Team = () => {
         <div className="bg-[#7FB3D5] h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Our Mission is clear. We are building to train over 10 Crores Career
-        Aspirants
+        Our mission is to bring joy to marketing for small businesses by creating authentic connections between brands and their audiences.
       </p>
 
-      <div className="flex flex-col xs:flex-row gap-6 p-5 lg:p-0 items-center">
-        <TeamImage image={team1} name={"Isaiah R"} role={"Cheif Executive Officer"} />
+      <div className="flex flex-col xs:flex-row justify-center gap-10 p-5 lg:p-0 items-center">
+        <TeamImage image={team1} name={"Isaiah R"} role={"Chief Executive Officer"} />
         <TeamImage image={team2} name={"De'anna M"} role={"Product Manager"} />
       </div>
     </div>

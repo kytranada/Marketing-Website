@@ -51,7 +51,7 @@ const Hero = () => {
         className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0"
       >
         <h1 className="text-pastel-blue-dark md:text-5xl text-3xl font-semibold">
-          Joy Marketing Media
+          Joy Marketing
         </h1>
         <p className="text-xl mt-5 text-pastel-blue primary-font">
           Bringing the joy to marketing for small businesses. Engage with your audience, build your brand, and increase revenue!

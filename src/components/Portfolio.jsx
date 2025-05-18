@@ -31,52 +31,52 @@ const Portfolio = () => {
         <div className="bg-[#7FB3D5] h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Explore Our Live Courses & Make Bharat ka Career Launchpad
+        Explore our successful marketing campaigns and client success stories
       </p>
 
       {/* Images */}
       <div className="flex flex-col justify-center items-center lg:-gap-6 gap-3 p-5 mb-10">
         {/* 1st row */}
         <div data-aos="fade-right" className="flex flex-col md:flex-row lg:-gap-6 gap-3">
-          <div onClick={() => navigate("portfolio/app1")}>
+          <div onClick={() => navigate("/portfolio/app1")}>
             <PortfolioProduct image={app1} />
           </div>
 
-          <div onClick={() => navigate("portfolio/product1")}>
+          <div onClick={() => navigate("/portfolio/product1")}>
             <PortfolioProduct image={product1} />
           </div>
 
-          <div onClick={() => navigate("portfolio/brand1")}>
+          <div onClick={() => navigate("/portfolio/brand1")}>
             <PortfolioProduct image={branding1} />
           </div>
         </div>
 
         {/* 2nd row */}
         <div data-aos="fade-left" className=" md:flex lg:-gap-6 gap-3 hidden">
-          <div onClick={() => navigate("portfolio/book1")}>
+          <div onClick={() => navigate("/portfolio/book1")}>
             <PortfolioProduct image={book1} />
           </div>
 
-          <div onClick={() => navigate("portfolio/app2")}>
+          <div onClick={() => navigate("/portfolio/app2")}>
             <PortfolioProduct image={app2} />
           </div>
 
-          <div onClick={() => navigate("portfolio/book3")}>
+          <div onClick={() => navigate("/portfolio/book3")}>
             <PortfolioProduct image={book3} />
           </div>
         </div>
 
         {/* 3rd row */}
         <div data-aos="fade-up" className="lg:-gap-6 gap-3 hidden md:flex">
-        <div onClick={() => navigate("portfolio/product3")}>
+        <div onClick={() => navigate("/portfolio/product3")}>
             <PortfolioProduct image={product3} />
           </div>
 
-          <div onClick={() => navigate("portfolio/book2")}>
+          <div onClick={() => navigate("/portfolio/book2")}>
             <PortfolioProduct image={book2} />
           </div>
 
-          <div onClick={() => navigate("portfolio/app3")}>
+          <div onClick={() => navigate("/portfolio/app3")}>
             <PortfolioProduct image={app3} />
           </div>
         </div>
