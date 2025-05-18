@@ -39,3 +39,7 @@ This website showcases Joy Marketing Media's services and expertise in digital m
 - React Router
 - React Hook Form
 - React Icons
+
+## Acknowledgments
+
+This project was built using a template created by [KumarRahul01](https://github.com/KumarRahul01/Marketing-Website).
