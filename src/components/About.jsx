@@ -55,7 +55,7 @@ const About = () => {
         <div className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0">
           <div data-aos="fade-left">
             <h2 className="text-[#7FB3D5] md:text-3xl font-semibold">
-              Get to Know Us
+            Where Strategy Meets Results
             </h2>
             <p className="text-lg mt-5 text-gray-600 primary-font">
               We're a team of marketing specialists who have experience in high-performing start-ups and established marketing agencies. We help business owners making marketing easier. We do the hard part so that you can focus on what matters, your business!
