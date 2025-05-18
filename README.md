@@ -1,55 +1,41 @@
-# Digital Marketing Website Template
+# Joy Marketing Media Website
 
-Welcome to the Digital Marketing Website Template repository! This project is a comprehensive digital marketing website template designed to showcase various services and strategies for effective online marketing.
+A modern, responsive marketing website for Joy Marketing Media, a company focused on helping small businesses with their marketing needs.
 
-## Table of Contents
+## Website Overview
 
-- [Digital Marketing Website Template](#digital-marketing-website-template)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Installation](#installation)
+This website showcases Joy Marketing Media's services and expertise in digital marketing, with a focus on creating authentic connections between businesses and their audiences.
 
-## Features
+## Sections
 
-- **Responsive Design**: Optimized for all devices including mobile, tablet, and desktop.
-- **Service Sections**: Detailed information about different digital marketing services offered.
-<!-- - **Blog**: A blog section to share articles and insights on digital marketing trends. -->
-- **Contact Form**: Easy-to-use contact form for potential clients to reach out.
-<!-- - **SEO Optimized**: Designed with best practices for search engine optimization. -->
-- **Modern UI**: Clean and professional user interface using modern web technologies.
+- **Hero Section**: Introduction to Joy Marketing Media and their mission to bring joy to marketing for small businesses.
+- **About**: Information about the team of marketing specialists who help business owners with marketing by combining branding, social media, and data analysis.
+- **Services**: Details about the marketing services offered, including:
+  - Paid Social Advertising
+  - Social Media Management
+  - App Development
+  - Web Development
+  - SEO Optimization
+  - Campaign Creation
+- **Portfolio**: Showcase of work in different categories:
+  - App Development
+  - Product Marketing
+  - Branding
+  - Books/Publications
+- **FAQ**: Frequently asked questions about marketing and related topics.
+- **Team**: Introduction to the team members:
+  - Isaiah R - Chief Executive Officer
+  - De'anna M - Product Manager
+- **Contact**: A form for scheduling discovery calls with fields for name, email, business name, website URL, and marketing needs.
+- **Newsletter**: Subscription form for the company newsletter.
+- **Footer**: Company contact information and social media links.
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- Tailwind CSS
 - React
-- Gsap
-<!-- - [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/) -->
-
-## Installation
-
-To get a local copy up and running, follow these simple steps:
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/KumarRahul01/Marketing-Website.git
-
-2. **Navigate to the project directory:**
-    ```sh
-    cd digital-marketing-website
-  
-3. **Install dependencies:**
-   ```sh
-   npm install
-
-4. **To run:**
-   ```sh
-   npm run dev
-
-Open your browser and go to http://localhost:5173/Marketing-Website/ to see the website in action.
-
+- Tailwind CSS
+- GSAP (for animations)
+- AOS (Animate On Scroll)
+- React Router
+- React Hook Form
+- React Icons
