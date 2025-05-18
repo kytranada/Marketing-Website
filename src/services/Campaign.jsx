@@ -12,7 +12,7 @@ const Campaign = () => {
         <NavBar />
       </div>
       <Template
-        title={"Campaign Creation"}
+        title={"Paid Social Advertising"}
         desc={
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet necessitatibus laborum voluptatem at provident atque labore porro ipsam debitis quam, ad dolorem, corrupti aut praesentium minima sit deserunt maiores fuga?"
         }

@@ -12,7 +12,7 @@ const Seo = () => {
         <NavBar />
       </div>
       <Template
-        title={"SEO Optimization"}
+        title={"Social Media Management"}
         desc={
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet necessitatibus laborum voluptatem at provident atque labore porro ipsam debitis quam, ad dolorem, corrupti aut praesentium minima sit deserunt maiores fuga?"
         }

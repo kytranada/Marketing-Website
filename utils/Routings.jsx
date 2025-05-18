@@ -24,9 +24,9 @@ const Routings = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/app-development" element={<AppDevelopment />} />
-        <Route path="/web-development" element={<WebDevelopment />} />
-        <Route path="/seo-optimization" element={<Seo />} />
-        <Route path="/campagin-creation" element={<Campaign />} />
+        <Route path="/WebDevelopment" element={<WebDevelopment />} />
+        <Route path="/SocialMediaManagement" element={<Seo />} />
+        <Route path="/PaidSocialAdvertising" element={<Campaign />} />
         <Route path="/hireus" element={<Hireus />} />
         <Route path="/portfolio">
           <Route path="app1" element={<ProductsTemp img={app1} />} />

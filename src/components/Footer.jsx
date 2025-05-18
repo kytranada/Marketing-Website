@@ -31,9 +31,9 @@ const Footer = () => {
         <div data-aos="fade-up" data-aos-delay="200" className="mb-8 md:mb-0">
           <h1 className="text-xl font-semibold mb-3">Our Services</h1>
           <ul className="space-y-2">
-            <li><Link to="/campaign-creation" className="text-gray-600 hover:text-pastel-blue">Paid Social Advertising</Link></li>
-            <li><Link to="/web-development" className="text-gray-600 hover:text-pastel-blue">Web Development</Link></li>
-            <li><Link to="/seo-optimization" className="text-gray-600 hover:text-pastel-blue">SEO Optimization</Link></li>
+            <li><Link to="/PaidSocialAdvertising" className="text-gray-600 hover:text-pastel-blue">Paid Social Advertising</Link></li>
+            <li><Link to="/SocialMediaManagement" className="text-gray-600 hover:text-pastel-blue">SEO Optimization</Link></li>
+            <li><Link to="/WebDevelopment" className="text-gray-600 hover:text-pastel-blue">Web Development</Link></li>
           </ul>
         </div>
 
