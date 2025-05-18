@@ -25,7 +25,7 @@ const NavBar = () => {
           }
         }}
       >
-        <img src={logoImg} alt="Joy Marketing" className="h-24 lg:h-28" />
+        <img src={logoImg} alt="Joy Marketing" className="h-28 lg:h-32" />
       </a>
       {/* menu */}
       <div className="lg:flex items-center justify-between lg:gap-10 hidden"> {/* Adjusted gap */}

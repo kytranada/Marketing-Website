@@ -45,7 +45,7 @@ const Newsletter = () => {
           {...register("email", { required: true })}
           type="email"
           placeholder="email@gmail.com"
-          className="md:w-1/2 w-11/12 px-6 py-3 rounded-3xl outline-none border border-zinc-300 focus:border-pastel-blue"
+          className="md:w-1/2 w-11/12 px-6 py-3 rounded-3xl outline-none border border-zinc-300 focus:border-pastel-blue text-black"
         />
         <button className="px-4 py-[10px] bg-pastel-blue hover:bg-pastel-blue-dark rounded-3xl text-pastel-white text-lg hover:shadow hover:shadow-pastel-blue transition-all duration-300">
           Subscribe

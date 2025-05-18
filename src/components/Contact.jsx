@@ -56,7 +56,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     placeholder="Your Name"
-                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none text-black"
                   />
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     placeholder="Your Email"
-                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none text-black"
                   />
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Contact = () => {
                     type="text"
                     id="businessName"
                     placeholder="Your Company LLC"
-                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none text-black"
                   />
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Contact = () => {
                     type="url"
                     id="websiteUrl"
                     placeholder="https://example.com"
-                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none text-black"
                   />
                 </div>
               </div>
@@ -109,7 +109,7 @@ const Contact = () => {
                 {...register("howCanWeHelp", { required: true })}
                 id="howCanWeHelp"
                 placeholder="Tell us about your marketing needs..."
-                className="w-full h-40 p-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none resize-none"
+                className="w-full h-40 p-3 my-3 rounded border border-zinc-300 focus:border focus:border-pastel-blue outline-none resize-none text-black"
               ></textarea>
             </div>
 
