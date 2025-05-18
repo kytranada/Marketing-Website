@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import CtaButton from "./CtaButton";
 import { useNavigate } from "react-router-dom";
+import logoImg from "../img/logo.png";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -12,85 +13,66 @@ const NavBar = () => {
   };
 
   return (
-    <div className="w-full xl:h-24 lg:h-20 h-16 flex flex-row items-center justify-between lg:px-32 sm:px-20 px-10 shadow-lg relative secondary-font bg-pastel-white">
+    <div className="w-full xl:h-24 lg:h-20 h-16 flex flex-row items-center justify-between lg:px-32 sm:px-20 px-10 shadow-lg relative secondary-font bg-pastel-white border-b border-pastel-lavender/30">
       {/* logo */}
       <a
         href="/Marketing-Website/"
-        className="lg:text-3xl text-2xl tracking-wide font-light text-pastel-blue-dark"
+        className="flex items-center"
       >
-        BrandName
+        <img src={logoImg} alt="Joy Marketing" className="h-24 lg:h-28" />
       </a>
       {/* menu */}
-      <div className="lg:flex items-center justify-between lg:gap-14 hidden">
+      <div className="lg:flex items-center justify-between lg:gap-10 hidden"> {/* Adjusted gap */}
         <a
           href="/Marketing-Website/"
-          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
+          className="text-pastel-blue hover:text-pastel-coral text-lg tracking-wide font-light"
         >
           Home
         </a>
-        <a
-          href="/Marketing-Website/#about"
-          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
-        >
-          About
-        </a>
+        {/* About link removed */}
         <a
           href="/Marketing-Website/#services"
-          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
+          className="text-pastel-blue hover:text-pastel-yellow text-lg tracking-wide font-light"
         >
           Services
         </a>
-        <a
-          href="/Marketing-Website/#portfolio"
-          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
-        >
-          Portfolio
-        </a>
-
+        {/* Portfolio link removed */}
         <a
           href="/Marketing-Website/#contact"
-          className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
+          className="text-pastel-blue hover:text-pastel-mint text-lg tracking-wide font-light"
         >
           Contact
         </a>
 
         {/* CTA */}
-        {/* <button className="bg-orange-600 text-lg text-slate-50 rounded-3xl px-4 py-1">
-          Get Strated
-        </button> */}
         <a href="/Marketing-Website/#contact" className="">
-          <CtaButton name={"Get Started"} />
+          <CtaButton name={"Book a Call"} /> {/* Updated CTA text */}
         </a>
       </div>
 
       {/* mobile menu */}
       <div className="lg:hidden">
-        <RxHamburgerMenu size={"28px"} onClick={clickHandler} className="text-pastel-blue-dark" />
+        <RxHamburgerMenu size={"28px"} onClick={clickHandler} className="text-pastel-lavender" />
       </div>
 
       {show && (
-        <div className="absolute z-20 top-[70px] flex flex-col gap-4 text-center w-full left-0 p-5 lg:hidden shadow-xl bg-pastel-white transition-all duration-300">
+        <div className="absolute z-20 top-[70px] flex flex-col gap-4 text-center w-full left-0 p-5 lg:hidden shadow-xl bg-pastel-white border border-pastel-lavender/20 transition-all duration-300">
           <a
             href="/Marketing-Website/"
-            className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
+            className="text-pastel-blue hover:text-pastel-coral text-lg tracking-wide font-light"
           >
             Home
           </a>
-          <a
-            href="/Marketing-Website/#about"
-            className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
-          >
-            About
-          </a>
+          {/* About link removed */}
           <a
             href="/Marketing-Website/#services"
-            className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
+            className="text-pastel-blue hover:text-pastel-yellow text-lg tracking-wide font-light"
           >
             Services
           </a>
           <a
             href="/Marketing-Website/#contact"
-            className="text-pastel-blue hover:text-pastel-blue-dark text-lg tracking-wide font-light"
+            className="text-pastel-blue hover:text-pastel-mint text-lg tracking-wide font-light"
           >
             Contact
           </a>
@@ -100,7 +82,7 @@ const NavBar = () => {
             href="/Marketing-Website/#contact"
             className="mt-2 ml-2 flex justify-center items-center"
           >
-            <CtaButton name={"Get Started"} />
+            <CtaButton name={"Book a Call"} /> {/* Updated CTA text */}
           </a>
         </div>
       )}

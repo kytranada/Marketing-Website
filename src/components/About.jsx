@@ -37,12 +37,12 @@ const About = () => {
     <div className="relative lg:mx-32">
       <h1
         data-aos="fade-down"
-        className="text-3xl font-semibold text-center text-[#7A6960]"
+        className="text-3xl font-semibold text-center text-[#7FB3D5]"
       >
         About Us
       </h1>
       <div className="flex justify-center items-center mt-2 mb-10">
-        <div className="bg-orange-600 h-1 w-16 rounded"></div>
+        <div className="bg-[#7FB3D5] h-1 w-16 rounded"></div>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center lg:gap-10 secondary-font">
@@ -54,78 +54,15 @@ const About = () => {
         </div>
         <div className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0">
           <div data-aos="fade-left">
-            <h1 className="text-[#7A6960] md:text-3xl font-semibold">
-              Upskilling Edtech
-            </h1>
+            <h2 className="text-[#7FB3D5] md:text-3xl font-semibold">
+              Get to Know Us
+            </h2>
             <p className="text-lg mt-5 text-gray-600 primary-font">
-              Edtech platform offering expert mentorship with our tech-powered
-              courses in various languages of India.
+              We're a team of marketing specialists who have experience in high-performing start-ups and established marketing agencies. We help business owners making marketing easier. We do the hard part so that you can focus on what matters, your business!
             </p>
-          </div>
-
-          {/* 1st template */}
-          <div
-            data-aos="zoom-in"
-            className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-5"
-          >
-            <div
-              className="bg-orange-600 w-fit p-2 md:p-5 rounded"
-              style={{ color: "white" }}
-            >
-              <BsPeople size={"28px"} />
-            </div>
-            <div className="w-full">
-              <h2 className="text-[#7A6960] text-xl font-medium">
-                The Vernacular Upskilling Edtech
-              </h2>
-              <p className="text-base text-gray-600 primary-font lg:mt-1 mt-2">
-                Explore Our Courses | Bharat ka Career Launchpad
-              </p>
-            </div>
-          </div>
-
-          {/* 2nd template */}
-          <div
-            data-aos="zoom-in"
-            className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-5"
-          >
-            <div
-              className="bg-orange-600 w-fit p-2 md:p-5 rounded"
-              style={{ color: "white" }}
-            >
-              <BsPeople size={"28px"} />
-            </div>
-            <div className="w-full">
-              <h2 className="text-[#7A6960] text-xl font-medium">
-                Build Your Career, Your Way
-              </h2>
-              <p className="text-base text-gray-600 primary-font lg:mt-1 mt-2">
-                Our Learners Work at Global Companies & Startups
-              </p>
-            </div>
-          </div>
-
-          {/* para */}
-          <p
-            data-aos="zoom-in"
-            className="text-lg mt-5 text-gray-600 primary-font"
-          >
-            Master industry-relevant skills with our vernacular online courses.
-            Choose your program, get certified, and open doors to lucrative
-            career opportunities.
-          </p>
-          <div className="flex flex-col justify-center sm:flex-row items-center mb-12 lg:mb-0 lg:flex-row gap-10 mt-10">
-            <div>
-              <a href="/Marketing-Website/#contact" className="">
-                <CtaButton name={"Get Started"} />
-              </a>
-            </div>
-            {/* <div
-              onClick={() => videoStartHandler()}
-              className="shadow shadow-zinc-300 hover:shadow-orange-600 hover:shadow px-4 py-2 rounded-3xl"
-            >
-              <VideoBtn name={"Watch Video"} />
-            </div> */}
+            <p className="text-lg mt-3 text-gray-600 primary-font">
+              Based on what your goals and needs are, we combine branding, social media, and data analysis to increase awareness, reputation, trust - and most of all, sales.
+            </p>
           </div>
 
           {/* <div

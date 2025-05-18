@@ -14,61 +14,37 @@ const Services = () => {
     AOS.init();
   });
 
-  // const clickHandler = () => {
-  //   navigate("app-development");
-  // };
   return (
-    <div className="text-[#7A6960]">
+    <div className="text-[#7FB3D5]">
       <h1 data-aos="fade-down" className="text-3xl font-semibold text-center">
-        Services
+        Our Services
       </h1>
       <div className="flex justify-center items-center mt-2">
-        <div className="bg-orange-600 h-1 w-16 rounded"></div>
+        <div className="bg-[#7FB3D5] h-1 w-16 rounded"></div>
       </div>
-      <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Choose from live online courses, classroom training, or self-paced
-        online programs.
+      <p className="text-gray-700 text-center mt-7 mb-10 text-lg px-4 md:px-16">
+        We are committed to elevating your brand's presence in the digital world. We want to make it easier for you to get in front of your audience. From building up your social media page to running paid campaigns for a new product launch, we are there to build your brand's presence by building a relationship with your audience. Our team combines creativity with authenticity and data-driven insights to deliver impactful results, fostering growth and enhancing your brand's connection with its audience.
       </p>
       <div
-        className="flex flex-col lg:flex-row items-center gap-5"
+        className="flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-10"
         data-aos="fade-up"
       >
-        <div onClick={() => navigate("/app-development")}>
+        <div>
           <Card
-            img={<HiOutlineChartPie />}
-            title={"Apps Development"}
+            img={<HiOutlineChartPie />} // Consider changing icon if appropriate
+            title={"Paid Social Advertising"}
             desc={
-              "Lorem ipsum, dolor Adipisci ipsam placeat voluptatum fuga omnis tenetur facere!"
+              "We specialize in maximizing your brand's impact and reaching the right audience through targeted paid social advertising. Leveraging platforms like Facebook, Instagram, and TikTok, we craft campaigns that resonate with your audience and deliver measurable results."
             }
           />
         </div>
 
-        <div onClick={() => navigate("/web-development")}>
+        <div>
           <Card
-            img={<HiOutlineChartPie />}
-            title={"Web Development"}
+            img={<HiOutlineChartPie />} // Consider changing icon if appropriate
+            title={"Social Media Management"}
             desc={
-              "Lorem ipsum, dolor Adipisci ipsam placeat voluptatum fuga omnis tenetur facere!"
-            }
-          />
-        </div>
-
-        <div onClick={() => navigate("/seo-optimization")}>
-          <Card
-            img={<HiOutlineChartPie />}
-            title={"Search Engine Optimization"}
-            desc={
-              "Lorem ipsum, dolor Adipisci ipsam placeat voluptatum fuga omnis tenetur facere!"
-            }
-          />
-        </div>
-
-        <div onClick={() => navigate("/campagin-creation")}>
-          <Card
-            img={<HiOutlineChartPie />}
-            title={"Campaign Creation"}
-            desc={
-              "Lorem ipsum, dolor Adipisci ipsam placeat voluptatum fuga omnis tenetur facere!"
+              "Our approach is centered on building meaningful connections and ensuring your brand's message resonates organically. We amplify your presence and engage your audience. We create authentic and compelling messages that speaks to your audience, fostering community and driving organic growth."
             }
           />
         </div>

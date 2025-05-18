@@ -24,7 +24,7 @@ const Newsletter = () => {
   };
 
   return (
-    <div data-aos="fade-down" className="text-[#7A6960]">
+    <div data-aos="fade-down" className="text-[#7FB3D5]">
       <h1 className="text-3xl font-semibold text-center">
         Join Our Newsletter
       </h1>
