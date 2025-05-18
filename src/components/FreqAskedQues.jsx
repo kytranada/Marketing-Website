@@ -21,7 +21,7 @@ const FreqAskedQues = () => {
         <div className="bg-[#7FB3D5] h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Some frequently asked questions that a user has searched recently!
+        Common questions about our marketing services and how we help small businesses succeed
       </p>
 
       {/* Accordian */}

@@ -3,23 +3,22 @@ import Accordian from "./Accordian";
 
 const Faquestions = () => {
   return (
-    // <div className="grid md:grid-cols-2 gap-x-10 md:gap-y-5 gap-y-3 mx-5 lg:mx-0">
     <>
       <div className="md:flex w-full md:gap-5 mb-5">
         <div className="md:w-1/2 mb-2 md:mb-0">
         <Accordian
-          question={"Top 108 SEO Interview Questions and Answers"}
+          question={"What marketing services does Joy Marketing Media offer?"}
           answer={
-            "Well-curated basic to advanced interview questions on SEO, categorized into freshers and experienced professionals. Also, find tips to fast-track a career in SEO."
+            "Joy Marketing Media offers a comprehensive suite of marketing services including paid social advertising, social media management, app development, web development, SEO optimization, and campaign creation. We tailor our services to help small businesses create authentic connections with their audiences."
           }
         />
         </div>
 
         <div className="md:w-1/2">
         <Accordian
-          question={"Top 55 JavaScript Interview Questions and Answers"}
+          question={"How can small businesses benefit from your marketing services?"}
           answer={
-            "The most detailed and well-structured set of interview questions on JavaScript for Freshers and experienced professionals in the field of web development."
+            "Small businesses can leverage our expertise to establish a strong online presence, reach their target audience effectively, and drive growth. Our team combines branding, social media, and data analysis to create marketing strategies that are both authentic and results-driven."
           }
         />
         </div>
@@ -28,18 +27,18 @@ const Faquestions = () => {
       <div className="md:flex w-full md:gap-5 mb-5">
         <div className="md:w-1/2 mb-2 md:mb-0">
         <Accordian
-          question={"Top 60 NodeJS Interview Questions and Answers"}
+          question={"What makes Joy Marketing Media different from other marketing agencies?"}
           answer={
-            "A list of top NodeJS interview questions and answers for both freshers & experienced candidates to prepare and boost chances of selection."
+            "Our focus is on bringing joy to marketing for small businesses. We believe in creating authentic connections between businesses and their audiences, rather than just driving metrics. Our team of specialists combines branding, social media expertise, and data analysis to deliver marketing that resonates."
           }
         />
         </div>
 
         <div className="md:w-1/2">
         <Accordian
-          question={"Top 49 Data Structures Interview Questions 2024"}
+          question={"How do you approach web and app development projects?"}
           answer={
-            "Data structures have become integral to every field and business. They are the building blocks of any computer program, making organising..."
+            "We approach development projects with both aesthetics and functionality in mind. Our web and app development services focus on creating user-friendly, responsive designs that reflect your brand identity while delivering an exceptional user experience."
           }
         />
         </div>
@@ -48,18 +47,18 @@ const Faquestions = () => {
       <div className="md:flex w-full md:gap-5 mb-5">
         <div className="md:w-1/2 mb-2 md:mb-0 ">
         <Accordian
-          question={"Top 55 Flutter Interview Questions and Answers 2024"}
+          question={"What is your process for SEO optimization?"}
           answer={
-            "Flutter has been gaining immense popularity in recent times, and for a good reason. It is a powerful open-source mobile app development framework created by Google."
+            "Our SEO optimization process begins with a thorough analysis of your current online presence, followed by keyword research, on-page optimization, content strategy development, and ongoing monitoring. We focus on sustainable, white-hat SEO practices that build long-term visibility."
           }
         />
         </div>
 
         <div className="md:w-1/2">
         <Accordian
-          question={"Top 28 Java 8 Interview Questions and Answers 2024"}
+          question={"How do you measure the success of marketing campaigns?"}
           answer={
-            "Java is a widely used programming language for various types of development projects, from the web and Android apps to the Internet of Things (IoT). "
+            "We establish clear KPIs at the beginning of each campaign based on your business objectives. Our data-driven approach allows us to track performance, provide transparent reporting, and make real-time adjustments to maximize results."
           }
         />
         </div>
